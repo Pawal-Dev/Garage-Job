@@ -65,6 +65,7 @@ Citizen.CreateThread(function()
 				{
 					label = Locale["interact_target"],
 					icon = 'fa-solid fa-warehouse',
+					distance = v.interactDist,
 					onSelect = function(data)
 						menuOpen = true
 						SetNuiFocus(true, true) 
