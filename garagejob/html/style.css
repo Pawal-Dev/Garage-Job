@@ -73,7 +73,7 @@
 
 .vehicle_choix:hover {
     background-color: rgba(124, 170, 255, 0.226);
-    transform: scale(1.05); /* Agrandit l'élément au survol */
+    transform: scale(1.05);
     cursor: pointer;
 }
 
